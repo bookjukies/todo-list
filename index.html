@@ -11,14 +11,19 @@
     <div class="container">
         <div class="add">
             <div class="heading">
-                <h1>MT TO-DO LIST</h1>
+                <h1>MY TO-DO LIST</h1>
             </div>
             <div class="input">
-                <input type="text">
-                <button>ADD</button>
+                <input id="item-add" type="text">
+                <button id="add" type="button">ADD</button>
             </div>
         </div>
-        <div class="display"></div>
+        <div class="display">
+            <div class="check"></div>
+            <div class="list"><ul id="list"></ul></div>
+            <div class="remove"></div>
+        </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
